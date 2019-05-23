@@ -5,6 +5,8 @@
   "description": "A high level language (and in-browser IDE) that compiles down to workshop rules",
   "scripts": {
     "start": "webpack-dev-server --hot --inline --progress --colors --port 8886",
+    "build": "webpack"
+  },
   "authors": [
     "Ankur Sundara <me@ankursundara.com>"
   ],

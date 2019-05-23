@@ -73,7 +73,7 @@ export class App extends React.Component<Props, State> {
                                     OmnicScript IDE
                                 </Header>
                                 <br/>
-                                <a href='https://owws.arxenix.dev/'>Docs</a>
+                                <a href='https://omnicscript-docs.arxenix.dev/'>Docs</a>
                             </Container>
                         </Grid.Column>
                     </Grid.Row>
