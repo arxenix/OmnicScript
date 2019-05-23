@@ -1,0 +1,42 @@
+{
+  "name": "omnicscript",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A high level language (and in-browser IDE) that compiles down to workshop rules",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --progress --colors --port 8886",
+  "authors": [
+    "Ankur Sundara <me@ankursundara.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-env": "^2.4.1",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "gh-pages": "^2.0.1",
+    "monaco-editor-webpack-plugin": "^1.6.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "cerialize": "^0.1.18",
+    "react": "~16.7.0",
+    "react-dom": "^16.6.3",
+    "react-monaco-editor": "^0.25.1",
+    "semantic-ui-react": "^0.87.1",
+    "ts-morph": "^2.1.2"
+  }
+}
